@@ -24,12 +24,12 @@ cd d:\DeepFake
 .\dlib_env\Scripts\activate
 
 # 3. Launch the application
-streamlit run app.py
+streamlit run app.py --server.port 8503
 ```
 
-The app will automatically open at `http://localhost:8501`
+The app will automatically open at `http://localhost:8503`
 
-**First time user?** See [QUICKSTART.md](QUICKSTART.md) for detailed instructions.
+
 
 ---
 
@@ -175,6 +175,8 @@ python train_all_models.py
 # Or train individually
 python training/train_image_model.py
 python training/train_audio_model.py
+python training/train_video_model.py
+python training/train_webcam_model.py
 ```
 
 ---
