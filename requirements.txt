@@ -1,0 +1,75 @@
+# Core Machine Learning & Deep Learning
+# Compatible with Python 3.8-3.12
+tensorflow
+torch
+torchvision
+keras
+scikit-learn
+
+# Computer Vision
+opencv-python-headless
+mediapipe
+facenet-pytorch
+dlib
+
+# Audio Processing
+librosa
+SpeechRecognition
+transformers
+
+# Web Interface
+streamlit
+streamlit-camera-input-live
+
+# Database
+firebase-admin
+
+# Visualization
+matplotlib
+seaborn
+grad-cam
+
+# Utilities
+numpy
+pandas
+Pillow
+scipy
+tqdm
+
+# PDF Generation
+reportlab
+
+# Video Processing
+ffmpeg-python
+moviepy
+
+# Face Analysis
+# Install dlib first, then face-recognition with proper model handling
+dlib-binary
+face-recognition-models
+face-recognition 
+imutils
+
+# API Integration
+tweepy
+google-api-python-client
+yt-dlp
+
+# Image Handling
+imageio
+imageio-ffmpeg
+
+# Additional Utilities
+python-dotenv
+bcrypt
+PyJWT
+plotly
+
+
+
+
+# Optional: For better performance
+# cupy-cuda11x>=12.0.0  # Uncomment if NVIDIA GPU available
+
+
+
