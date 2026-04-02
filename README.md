@@ -177,8 +177,6 @@ python training/train_image_model.py
 python training/train_audio_model.py
 ```
 
-**Complete training guide**: [TRAINING_QUICK_START.md](TRAINING_QUICK_START.md)
-
 ---
 
 ## 📊 Performance Benchmarks
@@ -201,29 +199,6 @@ python training/train_audio_model.py
 
 ---
 
-## 📚 Documentation
-
-This project has comprehensive documentation covering every aspect:
-
-### 📖 Getting Started
-- **[QUICKSTART.md](QUICKSTART.md)** - Installation and first steps
-- **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** - Deploy to Render, Railway, Docker, cloud platforms
-
-### 💻 Code & Architecture
-- **[MASTER_INDEX.md](MASTER_INDEX.md)** ⭐ - **Start here!** Complete navigation guide
-- **[COMPLETE_DOCUMENTATION.md](COMPLETE_DOCUMENTATION.md)** - Full system documentation
-- **[COMPLETE_CODE_EXAMPLES.md](COMPLETE_CODE_EXAMPLES.md)** - Complete source code examples
-
-### 🛠️ Development
-- **[TRAINING_QUICK_START.md](TRAINING_QUICK_START.md)** - Model training guide
-- **[FRONTEND_DESIGN_GUIDE.md](FRONTEND_DESIGN_GUIDE.md)** - UI design documentation
-
-### 📊 Statistics
-
-- **Total Documentation**: ~4,000+ lines
-- **Total Source Code**: ~7,000+ lines
-- **Documented Modules**: 30+ files
-- **Coverage**: 100% of components
 
 ---
 
@@ -283,8 +258,6 @@ dataset_structure = {
     }
 }
 ```
-
-**Complete dataset guide**: See [TRAINING_QUICK_START.md](TRAINING_QUICK_START.md)
 
 ---
 
@@ -412,9 +385,6 @@ Solution:
   1. Backup current DB: copy history\detection_history.db backup.db
   2. Delete corrupted DB: del history\detection_history.db
   3. Restart app (auto-creates fresh database)
-```
-
-**More troubleshooting**: See [AUDIO_DETECTION_FIX.md](AUDIO_DETECTION_FIX.md) for detailed examples
 
 ---
 
