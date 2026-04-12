@@ -33,7 +33,7 @@ grad-cam
 numpy
 pandas
 Pillow
-scipy
+scipy==1.10.1
 tqdm
 
 # PDF Generation
